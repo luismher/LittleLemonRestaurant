@@ -124,7 +124,6 @@ struct UserProfile: View {
                                 UserDefaults.standard.setValue(viewModel.firstName, forKey: "first key")
                                 UserDefaults.standard.setValue (viewModel.lastName, forKey: "last key")
                                 UserDefaults.standard.setValue(viewModel.email, forKey: "email key")
-                                UserDefaults.standard.set(profileImageData, forKey: "profileImageData")
                                 UserDefaults.standard.set(viewModel.phoneNumber, forKey: "phone key")
                                 UserDefaults.standard.set(viewModel.orderStatuses, forKey: "order key")
                                 UserDefaults.standard.set(viewModel.passwordChanges, forKey: "password key")
